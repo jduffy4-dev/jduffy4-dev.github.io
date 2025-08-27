@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Logo Header -->
+    <div class="Logo-header">
+        <img src="images/tanitinobgcropped.png" alt="Logo, Canva">
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="planyourtrip.html">Plan Your Trip</a>
+            <div class="dropdown-menu">
+                <a href="accomodations.html">Accommodations</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="traveltips.html">Travel Tips</a>
+                <a href="itineraries.html">Sample Itineraries</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="attractions.html">Attractions</a>
+            <div class="dropdown-menu">
+                <a href="events.html">Events and Festivals</a>
+                <a href="outdoor.html">Outdoor Activities</a>
+                <a href="family.html">Family-Friendly Activities</a>
+            </div>
+        </div>
+        <a href="contact.html" class="active">Contact Us</a>
+        <form class="search-form" action="#" method="get">
+            <input type="text" class="search-input" name="query" placeholder="Search...">
+        </form>
+    </div>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <a href="index.html">Home</a> > <span>Contact Us</span>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="center-text">
+            <h1 style="color: #003B6D;">Contact Us</h1>
+        </div>
+        <p style="text-align: center; font-size: 1.2rem; color: #676767;">
+            Have questions about your trip to Taniti? We’re here to help! Reach out to us using the form below, and we’ll get back to you as soon as possible.
+        </p>
+
+        <!-- Contact Us Form -->
+        <form action="submit_form.html" method="post" style="max-width: 600px; margin: 0 auto;">
+            <label for="name" style="font-size: 1rem; color: #676767;">Your Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+
+            <label for="email" style="font-size: 1rem; color: #676767;">Your Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+
+            <label for="message" style="font-size: 1rem; color: #676767;">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; margin-bottom: 15px;"></textarea>
+
+            <button type="submit" style="background-color: #003B6D; color: white; padding: 10px 20px; border: none; cursor: pointer;">Send Message</button>
+        </form>
+
+        <h2 style="color: #003B6D; text-align: center; margin-top: 40px;">Other Ways to Reach Us</h2>
+        <p style="text-align: center; font-size: 1rem; color: #676767;">
+            You can also contact us via email or phone:
+        </p>
+        <ul style="list-style: none; text-align: center; padding: 0; font-size: 1rem; color: #676767;">
+            <li>Email: <a href="mailto:info@taniti" style="color: #003B6D;">info@taniti</a></li>
+            <li>Phone: <a href="tel:+1234567890" style="color: #003B6D;">+1 (234) 567-890</a></li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="socialmedia.html">Social Media</a>
+        <a href="privacypolicy.html">Privacy Policy</a>
+        <p>© 2025 Taniti Tourism Board</p>
+        <p>
+            <strong>All Images provided by FreePik.com. Logo Created using Canva.com</strong><br>
+        </p>
+    </div>
+</body>
+</html>
